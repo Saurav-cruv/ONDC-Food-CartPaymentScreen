@@ -48,6 +48,9 @@ flutter:
     - family: PPMori
       fonts:
         - asset: assets/fonts/PPMori-Regular.otf
+    - family: PPEditorial
+      fonts:
+        - asset: assets/fonts/Editorial-New-Regular-400.otf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
