@@ -28,4 +28,4 @@ To run this project locally, follow these steps:
 
 2. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-flutter-static-page-project.git
+   git clone https://github.com/Saurav-cruv/ONDC-Food-CartPaymentScreen.git
