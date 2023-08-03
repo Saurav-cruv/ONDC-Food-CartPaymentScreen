@@ -277,59 +277,104 @@ class MyApp extends StatelessWidget {
                       fontWeight: FontWeight.w200),
                 ),
                 const Spacer(flex: 94),
+
                 ///Blurred button
-                SizedBox(
-                  height: 40,
-                  width: 200,
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      Center(
-                        child: ImageFiltered(
-                          imageFilter: ImageFilter.blur(
-                              sigmaX: 2.0,
-                              sigmaY: 2.0,
-                              tileMode: TileMode.decal),
-                          child: Container(
-                              decoration: ShapeDecoration(
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(30)),
-                                  color: const Color(
-                                      0xFF0057FF))), // Widget that is blurred
-                        ),
-                      ),
-                      InkWell(
-                        onTap: () {
-                          print('ETHYOOOO');
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.only(left: 15, right: 8),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                'PROCEED TO PAY',
-                                style: GoogleFonts.jetBrainsMono(
-                                    fontSize: 12,
-                                    letterSpacing: 2,
-                                    color: Colors.white),
-                              ),
-                              Container(
-                                height: 25,
-                                width: 25,
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(25),
-                                    color: Colors.white),
-                                child: const Icon(Icons.arrow_right_alt_rounded,
-                                    color: Color(0xFF0057FF)),
-                              )
-                            ],
+                Container(
+                    height: 30,
+                    width: 200,
+                    decoration: const BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(25)),
+                      boxShadow: [
+                        BoxShadow(
+                            color: Color(0xFF0057FF),
+                            blurRadius: 5.0,
+                            offset: Offset(0, 0),
+                            spreadRadius: 10),
+                      ],
+                    ),
+                    child: ElevatedButton(
+                      style: const ButtonStyle(
+                          elevation: MaterialStatePropertyAll(0),
+                          shape: MaterialStatePropertyAll(
+                              RoundedRectangleBorder(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(25)))),
+                          backgroundColor: MaterialStatePropertyAll(
+                            Color(0xFF0057FF),
+                          )),
+                      onPressed: () {},
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'PROCEED TO PAY',
+                            style: GoogleFonts.jetBrainsMono(
+                                fontSize: 12,
+                                letterSpacing: 2,
+                                color: Colors.white),
                           ),
-                        ),
-                      )
-                    ],
-                  ),
-                ),
+                          Container(
+                            height: 30,
+                            width: 30,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(35),
+                                color: Colors.white),
+                            child: const Icon(
+                              Icons.arrow_forward,
+                              color: Color(0xFF0057FF),
+                              size: 18,
+                            ),
+                          )
+                        ],
+                      ),
+                    )
+                    // Stack(
+                    //   alignment: Alignment.center,
+                    //   children: [
+                    //     Center(
+                    //       child: ImageFiltered(
+                    //         imageFilter: ImageFilter.blur(
+                    //             sigmaX: 2.0,
+                    //             sigmaY: 2.0,
+                    //             tileMode: TileMode.decal),
+                    //         child: Container(
+                    //             decoration: ShapeDecoration(
+                    //                 shape: RoundedRectangleBorder(
+                    //                     borderRadius: BorderRadius.circular(30)),
+                    //                 color: const Color(
+                    //                     0xFF0057FF))), // Widget that is blurred
+                    //       ),
+                    //     ),
+                    //     InkWell(
+                    //       onTap: () {},
+                    //       child: Padding(
+                    //         padding: const EdgeInsets.only(left: 15, right: 8),
+                    //         child: Row(
+                    //           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    //           children: [
+                    //             Text(
+                    //               'PROCEED TO PAY',
+                    //               style: GoogleFonts.jetBrainsMono(
+                    //                   fontSize: 12,
+                    //                   letterSpacing: 2,
+                    //                   color: Colors.white),
+                    //             ),
+                    //             Container(
+                    //               height: 25,
+                    //               width: 25,
+                    //               decoration: BoxDecoration(
+                    //                   borderRadius: BorderRadius.circular(25),
+                    //                   color: Colors.white),
+                    //               child: const Icon(Icons.arrow_right_alt_rounded,
+                    //                   color: Color(0xFF0057FF)),
+                    //             )
+                    //           ],
+                    //         ),
+                    //       ),
+                    //     )
+                    //   ],
+                    // ),
+                    ),
                 const Spacer(flex: 35),
               ],
             )
