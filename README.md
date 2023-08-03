@@ -6,7 +6,7 @@ A Flutter project demonstrating a static page layout of one of the payment scree
 
 - [About](#about)
 - [Screenshots](#screenshots)
-- [To Run](#To Run)
+- [To Run](#ToRun)
 
 ## About
 
@@ -17,7 +17,7 @@ This Flutter project showcases a static page layout, serving as a simple example
 
 ![MotoG71](./screenshots/MotoG71.png)
 ![Pixel4](./screenshots/Pixel4.png)
-## To Run
+## ToRun
 
 To run this project locally, follow these steps:
 
