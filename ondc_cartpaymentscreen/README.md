@@ -1,16 +1,36 @@
-# ondc_cartpaymentscreen
+# Flutter Static Page Showcase
 
-A new Flutter project.
+A Flutter project demonstrating a static page layout.
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+This Flutter project showcases a static page layout, serving as a simple example of how to create and style static pages using Flutter widgets.
+
+## Features
+
+- A visually appealing static page layout.
+- Custom styling and theming.
+
+## Screenshots
+
+Include screenshots or GIFs showcasing the static page(s) of your project. You can provide a brief description for each screenshot if needed.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Make sure you have Flutter installed. If not, [install Flutter](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/your-flutter-static-page-project.git
