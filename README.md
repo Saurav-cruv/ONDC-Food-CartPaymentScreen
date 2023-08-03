@@ -6,7 +6,7 @@ A Flutter project demonstrating a static page layout of one of the payment scree
 
 - [About](#about)
 - [Screenshots](#screenshots)
-- [To Run](#running)
+- [To Run](#To Run)
 
 ## About
 
