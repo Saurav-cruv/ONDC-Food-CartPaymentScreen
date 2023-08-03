@@ -268,7 +268,7 @@ class MyApp extends StatelessWidget {
                 ),
                 const Spacer(flex: 4),
                 const Text(
-                  '25 Min',
+                  '25 Mins',
                   style: TextStyle(
                       fontFamily: 'PPEditorial',
                       fontStyle: FontStyle.italic,
